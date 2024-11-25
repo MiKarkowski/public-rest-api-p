@@ -1,0 +1,18 @@
+# ErrorResponse.yaml
+type: object
+properties:
+  type:
+    type: integer
+    description: HTTP status code of the error
+  title:
+    type: string
+    description: A descriptive title explaining the error
+  status:
+    type: integer
+    description: A precise status code of HTTP error response
+  detail:
+    type: string
+    description: Additional details about the error, if available
+  instance:
+    type: string
+    description: A path that resulted in following error
